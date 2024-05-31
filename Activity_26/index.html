@@ -1,53 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- TODO
-1. Make both paragraph elements wrap around the image.
-2. Use Float to move the cat div to the left and the dog div to the right.
-3. Use clear to make the footer go below both the cat and dog div. -->
-
 <head>
   <meta charset="UTF-8">
-  <title>CSS Float</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsiveness</title>
   <style>
-    div {
-      display: inline-block;
-      width: 30%;
-    }
-
-    p {
-      font-size: 2em;
-    }
-
-    .penguin {
-      background-color: skyblue;
-    }
-
-    .whaleshark {
-      background-color: coral;
-    }
-
-    footer {
-      text-align: center;
-      background-color: blueviolet;
+    a {
+      display: block;
     }
   </style>
 </head>
 
 <body>
-  <div class="penguin">
-    <h2>penguinCSS</h2>
-
-    <img src="penguin.jpeg" alt="penguin in snow" />
-    <p class="first-paragraph">group of aquatic flightless birds from the family Spheniscidae of the order Sphenisciformes</p>
-  </div>
-  <div class="whaleshark">
-    <h2>WHALESHARKCSS</h2>
-    <img src="whaleshark.jpeg" alt="whaleshark in the sea" />
-    <p class="second-paragraph">As the largest fish in the sea, reaching lengths of 40 feet or more, whale sharks have an enormous menu from which to choose..</p>
-  </div>
-
-  <footer>Copyright. This is the footer</footer>
+  <h1>Responsiveness Methods</h1>
+  <a href="./media-query.html">1. Media Queries</a>
+  <a href="./grid.html">2. CSS Grid</a>
+  <a href="./flexbox.html">3. CSS Flexbox</a>
+  <a href="./bootstrap.html">4. Bootstrap Framework</a>
 </body>
 
 </html>
